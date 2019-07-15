@@ -1,0 +1,14 @@
+.r_pwd{padding: 56px 0;background-color: #f5f5f5;}
+.r_pwd_con{width: 900px;height: 360px;margin: 0 auto;box-shadow:0 4px 4px #cbc7c4;border: 1px solid #e4e0dc;}
+.r_pwd_mm{color: #666;padding-left: 20px;padding-top: 20px;font-size:16px;}
+.at_follow_1{float: right;padding-right: 200px;}
+.at_fw1_ul{width:486px;margin:40px auto auto;}
+.at_fw1_ul .at_fw1_li{color: #ff9900;}
+.at_fw1_ul li{width:162px;float: left;font-size: 14px;text-align: center;color: #666;}
+.at_fw1_tb{width:514px;height:200px;font-size: 14px;color: #666;margin: auto;top: 50px;}
+tbody tr{padding-top: 30px;}
+.at_fw1_inp{width:  270px;padding:6px 0;border: 1px solid #ddd;}
+.at_fw1_td{text-align: right;padding-right: 20px;margin-top: 30px;}
+.at_fw1_yzm,.at_fw1_sub{width:74px;display: block;text-decoration: none;text-align: center;}
+.at_fw1_yzm{border:1px solid #ddd;color: #666;line-height: 30px;font-size: 12px;background: #f5f5f5;margin-left: 10px;}
+.at_fw1_sub{background-color: #e51e13;font-size: 14px;color: #fff;line-height: 40px;}

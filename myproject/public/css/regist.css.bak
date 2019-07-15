@@ -1,0 +1,124 @@
+*{padding: 0;margin: 0;border: none;}
+#top_head{
+    width: 100%;
+    margin: 0 auto;
+   /* border-top: 1px solid #616161;*/
+    /*height: 82px;*/
+}
+#top{
+    width: 1200px;
+    margin: 10px auto;
+
+}
+#top_con{
+    position: relative;
+    margin:0 auto;
+    height: 27px;
+
+}
+#top_left{
+    width: 20px;
+    height: 20px;
+    background-image:url(images/indeximages/index.png);
+    display: inline-block;
+   margin-left: 12px;
+    margin-bottom: -8px;
+}
+#top_ul li{
+    float: left;
+   line-height: 20px;
+}
+#top_ul{
+	list-style:none;
+	position:relative;
+}
+#top_li{
+	position:absolute;
+	
+}
+#top_ul a{
+	text-decoration:none;
+	color:#616161;
+	margin-left: 30px;
+    padding:0;
+    border: 0;
+    font-size: 12px;
+    margin-right: 8px;
+}
+#top_ul a:hover,#top_ul_right a:hover{
+   text-decoration: underline;
+   color: #f00;
+}
+#top_ul_right{
+    list-style-type: none;
+    position: relative;
+}
+#top_ul_right a{
+    text-decoration: none;
+    color: #616161;
+    font-size: 12px;
+    margin-right: 10px;
+}
+#top_ul_right img{
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    margin-bottom: -5px;
+}
+#top_ul_right {
+    float:right;
+
+}
+#top_ul_right li{
+    display: inline-block;
+}
+#top_down{
+    width: 1200px;
+    height: 81px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+#top_down::after{
+    content: "";display: block;clear: both;
+}
+#top_img{margin:0 auto;
+    width: 260px;
+  
+    float: left;
+}
+#top_down_right {float:left;width:20px;height:20px;background-image:url(images/indeximages/shopping_logo.png);
+    background-repeat: no-repeat;margin-right: 5px;}
+#top_input{
+    width: 310px;height: 21px;border: 1px solid #aaa; float: left; border-radius: 8px;margin-left: 100px;margin-right:200px;
+}
+#top_nav{height: 16px;}
+#top_nav ul{list-style: none;float: left;margin-top: 20px;margin-left: 20px;}
+#top_nav ul li{display: inline-block;height: 16px;margin:0 20px;}
+#top_right{float: left;margin:0 auto;}
+#top_right a{text-decoration: none;color: #616161;}
+#top_right p{background-image: url(images/indeximages/phone_icon.jpg);background-repeat: no-repeat;padding-left: 25px;margin-left:50px; float: left;}
+#top_nav ul li a{text-decoration: none;color: #616161;}
+#top_nav ul li a:hover{color: #f00;}
+#nav{width:100%;height: 30px;background-color: #e51e13;box-shadow:1px 1px 6px #ae3232; text-align: center;}
+#nav_con{width: 1200px;height: 35px;margin: auto;list-style: none;}
+#nav_con li{display: inline-block;float: left;height: 35px;line-height: 30px;}
+#nav_con li a{text-decoration: none;color: #fff;font-size: 18px;margin: 0 20px;}
+#nav_con li a:hover{width:78px;height:35px;background-color: orange; }
+#regist_div_back{width: 100%;height: 1200px;background: url(images/indeximages/test_cm.jpg) no-repeat;margin: 0 auto;}
+#regist_div_back ul{width: 578px;height:100%;list-style: none;margin: 0 auto;}
+#registe_table{width: 500px;height: 400px;padding-top: 80px;}
+#tb_input{width: 245px;height: 28px;border:1px solid #aaa;margin-left:-15px;}
+#tb_input_phone{width: 149px;height: 31px;border:1px solid #aaa;margin-left: 10px;}
+#tb_a {width:113px;height:31px;border:1px solid #e1e1e1;background:#e51e13;text-decoration: none;color: #fff;display:inline-block;text-align: center;line-height: 31px;font-size: 14px;}
+#tb_regist{width:233px;height:50px;text-decoration:none;background: rgb(229, 30, 19) none repeat scroll 0% 0%;display: inline-block;line-height: 50px;color: #fff;}
+.footer{width: 100%;font-family: "微软雅黑";}
+.footer_child{width:1200px;margin:0 auto;padding-top: 20px;}
+.footer_left{width: 300px;float: left;}
+.footer_left_one{width: 220px;}
+.footer_left_one p,.footer_left_two p,.footer_left_three p{font-size: 13px;padding-left:20px; }
+.footer_left_two{margin-bottom: 20px;}
+.footer_left_one p{width: 220px;background-image: url(images/indeximages/zbdz.jpg); background-repeat:no-repeat;background-size:  20px 20px;margin-bottom: 20px;}
+.footer_right ul{list-style: none;position: relative;float: left;width: 266px;}
+.footer_right p{display:inline-block;}
+.footer_right ul li a{text-decoration:none;font-size:12px;color:#616161;margin-left:25px;}

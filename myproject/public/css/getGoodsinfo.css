@@ -1,0 +1,45 @@
+#goods_detail{width: 1200px;margin:0 auto;}
+#goods_detail_nav{height:20px;margin-top:20px;}
+#goods_detail_nav a{text-decoration: none;color:#666;}
+#goods_detail_nav a:hover{text-decoration:underline;color:#f1cf5c;}
+#goods{width:1200px;height:550px;margin:0 auto;}
+#bigImg{width:430px;height:430px;position: absolute;left:790px;top:250px;background-repeat: no-repeat;display: none;}
+#good_img{width:430px;height:430px;float:left;margin-right: 5px;}
+#preview{width:430px;height:430px;position: relative;}
+#mask{width:176px;height: 176px;background-color:#ffa;opacity:.5;position: absolute;}
+#super-mask{width:430px;height:430px;position: absolute;left:0px;top: 0px; }
+#spec_scroll{width:400px;height:52px;}
+#spec_scroll .prev,#spec_scroll .next{width:30px;height:64px;display:block;background:#eee;color:#bbb;font-size:24px;font-family:"宋体";text-align:center;line-height:64px;cursor:pointer;}
+#spec_scroll .prev{float:left;}
+#spec_scroll .next{float:right;}
+#ulImgs{height: 52px;margin-left:40px;overflow: hidden;padding-top: 5px;}
+#ulImgs>li{float: left;width: 52px;height: 52px;margin-top:10xp;margin-right: 20px;}
+#good_des{width:750px;height:380.5px;float:left;}
+#good_des .good_des_name{height:36px;line-height:36px;font-size:20px;font-weight:700;}
+#good_des #good_des_pri{width:750px;height:40.5px;background:#f0f0f0;}
+#good_des ul li{line-height:38px;font-size:14px;padding-left:8px;}
+#good_des ul li #good_price{font-size:20px;color:#c40000;}
+#good_des #good_des_ser li,#good_des #good_des_fruit li{height: 40px;margin: 2px 4px;padding-right: 5px;padding-left: 3px;}
+#good_des #good_des_ser #good_ser_li{margin-bottom:-15px;margin-top:10px;}
+#good_des_num{margin-top:80px;margin-bottom:20px;}
+#good_des_num li{display:inline-block;}
+#good_des_num #good_num_li{font-size:12px;font-weight:bold;margin-right:20px;}
+#good_des_num #good_num_li2{width:100px;height:27px;background:#f0f0f0;line-height:27px;border:1px solid #e8e8ea;}
+#good_des_num #good_num_li2 a{width:18px;height:20px;display:inline-block;}
+#good_des_num #good_num_li2 input{width:40px;height:22px;line-height:20px;text-align:center;border:1px solid #bebebf;}
+#good_des_opt li{float:left;}
+#good_des_opt li a{display:block;}
+#good_des_opt #good_buy,#good_des_opt #good_car{width:134px;height:34px;line-height:34px;text-align:center;font-size:16px;border-radius:2px;}
+#good_des_opt #good_buy{background:#ffeded;border:1px solid #d2605e;color:#d2605e;}
+#good_des_opt #good_car{padding-left:10px;background:#e51e13;color:#fff;border:1px solid #e51e13;background-image:url(../images/Goodsinfoimgs/inner.png);background-repeat:no-repeat;background-position:7px 8px;}
+#goods_adv{width:1200px;margin:0 auto;}
+#glc_lt #glc_lt_tit,#glc_rt #glc_lt_tit{height:34px;line-height:34px;font-size: 14px;color: #e51e13;border-bottom: 2px solid #ddd;}
+#glc_lt #glc_lt_gdss{width: 980px;padding-bottom: 10px;margin: 20px 125px;}
+#glc_lt_gds_img img{width:145px;height:145px;border: 1px solid #ccc;}
+#glc_lt_gds{float: left;margin-right: 13px;}
+#glc_lt_gds #glc_lt_gds_des{width: 150px;text-align: center;}
+#glc_lt_gds_des a{color: #666;text-decoration:none;line-height: 20px;}
+#glc_lt_gds_des a:hover{text-decoration: underline;}
+#glc_lt_gds #glc_lt_gds_pri{width:150px;text-align:center;}
+#glc_lt_gds_pri span{color: #b9281e;font-size:16px;}
+#goods_adv #glc_rt{width:1200px;float: left;margin-top: 30px;margin-bottom: 20px;}

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-1.11.3.js"></script>    
+    <script src="js/regist.js"></script>
+    <link rel="stylesheet" href="css/getGoodsinfo.css">
+    <style>
+        #nav{width:100%;height: 30px;background-color: #e51e13;box-shadow:1px 1px 6px #ae3232; text-align: center;position: relative;}#nav .shade{width: 1200px;margin: 0 auto;padding-left: 550px;}   
+        #nav_con{width: 1200px;height: 35px;margin: auto;list-style: none;}
+        .nv_all_gs{width: 210px;color: #000;font-size: 17px;margin-right: 10px;position: relative;}
+        .nv_all_gs img{margin-left: 15px;}
+        #nav_con li{float: left;height: 35px;line-height: 30px;}
+        /* #nav_con li a{text-decoration: none;color: #fff;font-size: 18px;margin: 0 20px;} */
+        #nav_con li a:hover{width:78px;height:30px;background-color: orange; display: inline-block;}
+        .ct_in{width: 28px;height: 28px;}
+        .dropdown{width:210px; height:399px;height:450px;font-size:17px;position:absolute;margin-top:5px;margin-left:-190px; }
+        .dropdown a{
+            margin-top: 0px;
+            text-decoration:none; 
+            color:#fff;
+            display:block;
+            /*border:1px solid #000; padding:6px 12px;*/
+        }
+        .dropdown-menu{list-style: none;display: block;width:210px;position:relative;opacity:0;overflow:hidden;transition:all .5s linear;}
+        .dropdown-menu li{display:block;height:58px;background-color: rgb(229,30,19);line-height: 50px;opacity: 0.8;}
+        .dropdown-menu li:hover{background-color:#fff;opacity: 0.8;}
+        .dropdown-menu li span{float: left;}
+        .ct_in1,.ct_in2,.ct_in3,.ct_in4,.ct_in5,.ct_in6,.ct_in7{width:28px;height:28px;margin-left: 20px;margin-top: -32px;display: block;background-image:url(images/indeximages/category.png);background-repeat:  no-repeat;}
+        .ct_in1:hover,.ct_in2:hover,.ct_in3:hover,.ct_in4:hover,.ct_in5:hover,.ct_in6:hover,.ct_in7:hover{background-image:url(images/indeximages/category.png);background-repeat:  no-repeat;}
+        .ct_in1{background-position: 3px 0px;}
+        .ct_in1:hover{background-position: -33px 0px;}
+        .ct_in2{background-position: 3px -26px;}
+        .ct_in3{background-position: 3px -53px;}
+        .ct_in4{background-position: 3px -86px;}
+        .ct_in5{background-position: 3px -114px;}
+        .ct_in6{background-position: 3px -145px;}
+        .ct_in7{background-position: 3px -173px;}
+        .dropdown-menu li .ct_yb{float: right;color: #fff;margin-top: -49px;margin-right: 10px;}
+    </style>
+</head>
+<body>
+    
+    <div id="top_head">
+            <div id="top">
+                <div id="top_con">
+                    <ul id="top_ul">
+                        <li id="top_li"><p id="top_left"></p></li>
+                        <li><a href="#">收藏果酷</a></li>
+                    </ul>
+                    <ul id="top_ul_right">
+                        <li id="top_two_li"><img src="images/indeximages/login_icon.jpg" alt=""/><a class="login_a">请登录</a></li>
+                        <li><img src="images/indeximages/register_icon.jpg" alt=""/><a href="#">免费注册</a></li>
+                        <li><img src="images/indeximages/order_icon.jpg" alt=""/><a href="#">我的订单</a></li>
+                        <li><img src="images/indeximages/city_icon.jpg" alt=""/><a href="#">北京市</a>
+                            <img src="images/indeximages/san_k.png" alt="" style="width: 10px;height: 5px;margin-bottom:2px;margin-left: 3px;">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div style="border-top: 1px solid #aaa;"></div>
+            <div id="top_down" >
+                <div id="top_img">
+                    <img src="images/indeximages/logo.png" alt="">
+                </div>  
+                <div id="top_input">
+                    <input type="text">
+                </div>
+                <div id="top_down_right"></div>
+                <p style="width:70px;float: left;font-size: 13px;margin-top:3px; ">我的购物车</p>
+                
+                <div id="top_right">
+                     <p ><a href="#">400-6900-621</a></p>
+                </div>
+                <div id="top_nav">
+                    <ul>
+                        <li id="li_home"><a href="#">HOME</a></li>
+                        <li id="li_sales"><a href="#">SALES</a></li>
+                        <li id="li_activity"><a href="#">ACTIVITY</a></li>
+                        <li id="li_taste"><a href="#">TASTE</a></li>
+                        <li id="li_platform"><a href="#">PLATFORM</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="nav">    
+                <div class="shade">
+                        <div class="dropdown">
+                                <a class="nv_all_gs" data-trigger="dropdown" href="">
+                                   全部商品分类<img src="images/Goodsinfo2imgs/nav_all.png" alt=""></a>
+                                    <ul class="dropdown-menu">
+                                            <li>
+                                               <a href="">专利分格</a>                                             
+                                                <span class="ct_in1"></span>
+                                                <span class="ct_yb">&gt</span>
+                                            </li>
+                                            <li>
+                                                <a href="">彩虹果杯</a>
+                                                <span class="ct_in2"></span>
+                                                <span class="ct_yb">&gt</span>
+                                            </li>
+                                            <li>
+                                                <a href="">特别定制</a>
+                                                <span class="ct_in3"></span>
+                                                <span class="ct_yb">&gt</span>
+                                            </li>
+                                            <li>
+                                                <a href="">创意果切</a>
+                                                <span class="ct_in4"></span>
+                                                <span class="ct_yb">&gt</span>
+                                            </li>
+                                            <li>
+                                                <a href="">节日精选</a>
+                                                <span class="ct_in5"></span>
+                                                <span class="ct_yb">&gt</span>
+                                            </li>
+                                            <li>
+                                                <a href="">进口水果</a>
+                                                <span class="ct_in6"></span>
+                                                <span class="ct_yb">&gt</span>
+                                            </li>
+                                            <li>
+                                                <a href="">国产水果</a>
+                                                <span class="ct_in7"></span>
+                                                <span class="ct_yb">&gt</span>
+                                            </li>
+                                    </ul>
+                        </div>
+                   
+                    <ul id="nav_con">                               
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="#">闪购促销</a></li>
+                        <li><a href="#">最新活动</a></li>
+                        <li><a href="toForetaste.html">免费试吃</a></li>
+                        <li><a href="#">企业平台</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

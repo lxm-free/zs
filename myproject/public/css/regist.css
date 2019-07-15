@@ -1,0 +1,86 @@
+*{padding: 0;margin: 0;border: none;}
+#top_head{width: 100%; margin: 0 auto;}
+#top{ width: 1200px;margin: 10px auto;}
+#top_con{position: relative;margin:0 auto;height: 27px;}
+#top_left{width: 20px;height: 20px;background-image:url(../images/indeximages/index.png);display: inline-block;
+margin-left: 12px;margin-bottom: -8px;}
+#top_ul li{float: left;line-height: 20px;}
+#top_ul{list-style:none;position:relative;}
+#top_li{position:absolute;}
+#top_ul a{text-decoration:none;color:#616161;margin-left: 30px;padding:0;border: 0;font-size: 12px;margin-right: 8px}
+#top_ul a:hover,#top_ul_right a:hover{text-decoration: underline;color: #f00;}
+#top_ul_right{list-style-type: none;position: relative;}
+#top_ul_right a{text-decoration: none;color: #616161;font-size: 12px;margin-right: 10px;}
+#top_ul_right img{width: 20px;height: 20px;margin-right: 3px;margin-bottom: -5px;}
+#top_ul_right {float:right;}
+#top_ul_right li{display: inline-block;}
+#top_down{ width: 1200px;height: 81px;padding-top: 20px; margin: 0 auto;text-align: center;}
+#top_down::after{content: "";display: block;clear: both;}
+#top_img{margin:0 auto;width: 260px;float: left;}
+#top_down_right{float:left;width:20px;height:20px;background-image:url(../images/indeximages/shopping_logo.png);background-repeat: no-repeat;margin-right: 5px;}
+#top_down .top_down_a{color: #616161;}
+#top_input{width: 310px;height: 21px;border: 1px solid #aaa; float: left; border-radius: 8px;margin-left: 100px;margin-right:200px;}
+#top_nav{height: 16px;}
+#top_nav ul{list-style: none;float: left;margin-top: 20px;margin-left: 20px;}
+#top_nav ul li{display: inline-block;height: 16px;margin:0 20px;}
+#top_right{float: left;margin:0 auto;}
+#top_right a{text-decoration: none;color: #616161;}
+#top_right p{background-image: url(../images/indeximages/phone_icon.jpg);background-repeat: no-repeat;padding-left: 25px;margin-left:50px; float: left;height: 20px;}
+#top_nav ul li a{text-decoration: none;color: #000;font-size: 16px;}
+#top_nav ul li a:hover{color: #f00;}
+
+#nav{width:100%;height: 30px;background-color: #e51e13;box-shadow:1px 1px 6px #ae3232; text-align: center;}
+#nav .shade{width: 1200px;padding-left: 300px;}  
+#nav_con{width: 1200px;height: 35px;margin: auto;list-style: none;}
+#nav_con li{display: inline-block;height: 35px;line-height: 30px;}
+#nav .shade .dropdown .nv_all_gs{width: 210px;color: #fff;font-size: 17px;margin-right: 10px;position: relative;}
+#nav .shade .dropdown .nv_all_gs img{margin-left: 15px;}
+#nav .shade .dropdown{width:210px; height:399px;height:450px;font-size:17px;position:absolute;margin-top:5px;margin-left:80px; z-index: 9999;}
+#nav .shade .dropdown a{
+    margin-top: 0px;
+    text-decoration:none; 
+    color:#fff;
+    display:block;
+   
+}
+#nav .dropdown-menu{list-style: none;display: block;width:210px;position:relative;opacity:0;overflow:hidden;transition:all .5s linear;}
+#nav .dropdown-menu li{display:block;height:58px;background-color: rgb(229,30,19);line-height: 50px;opacity: 0.8;}
+#nav .dropdown-menu li:hover{background-color:#fff;opacity: 0.8;}
+#nav .dropdown-menu li span{float: left;}
+#nav .dropdown-menu .ct_in1,.ct_in2,.ct_in3,.ct_in4,.ct_in5,.ct_in6,.ct_in7{width:28px;height:28px;margin-left: 20px;margin-top: -32px;display: block;background-image:url(../images/indeximages/category.png);background-repeat:  no-repeat;}
+#nav .dropdown-menu .ct_in1:hover,.ct_in2:hover,.ct_in3:hover,.ct_in4:hover,.ct_in5:hover,.ct_in6:hover,.ct_in7:hover{background-image:url(images/indeximages/category.png);background-repeat:  no-repeat;}
+#nav .dropdown-menu .ct_in1{background-position: 3px 0px;}
+#nav .dropdown-menu .ct_in1:hover{background-position: -33px 0px;}
+#nav .dropdown-menu .ct_in2{background-position: 3px -26px;}
+#nav .dropdown-menu .ct_in3{background-position: 3px -53px;}
+#nav .dropdown-menu .ct_in4{background-position: 3px -86px;}
+#nav .dropdown-menu .ct_in5{background-position: 3px -114px;}
+#nav .dropdown-menu .ct_in6{background-position: 3px -145px;}
+#nav .dropdown-menu .ct_in7{background-position: 3px -173px;}
+#nav .dropdown-menu li .ct_yb{float: right;color: #fff;margin-top: -49px;margin-right: 10px;}
+#nav_con li a{text-decoration: none;color: #fff;font-size: 18px;margin: 0 20px;}
+#nav_con li a:hover{width:78px;height:30px;background-color: orange; display: inline-block;}
+#regist_div_back{width: 100%;height: 1200px;background: url(../images/indeximages/test_cm.jpg) no-repeat;margin: 0 auto;}
+#regist_div_back ul{width: 578px;height:100%;list-style: none;margin: 0 auto;}
+#registe_table{width: 500px;height: 400px;padding-top: 80px;}
+#tb_input_phone,
+#tb_input{width: 245px;height: 28px;border:1px solid #aaa;padding-left: 10px}
+/* #tb_input_phone{width: 149px;height: 31px;border:1px solid #aaa;} */
+#tb_a {width:113px;height:31px;border:1px solid #e1e1e1;background:#e51e13;text-decoration: none;color: #fff;display:inline-block;text-align: center;line-height: 31px;font-size: 14px;}
+.tb_regist{width:233px;height:50px;text-decoration:none;background: rgb(229, 30, 19) none repeat scroll 0% 0%;display: inline-block;line-height: 50px;color: #fff;}
+.tb_regist2{width:233px;height:50px;text-decoration:none;background:#666 none repeat scroll 0% 0%;display: inline-block;line-height: 50px;color: #fff;}
+.footer{width: 100%;font-family: "微软雅黑";}
+.footer_child{width:1200px;margin:0 auto;padding-top: 20px;}
+.footer_left{width: 300px;float: left;}
+.footer_left_one{width: 220px;}
+.footer_left_one p,.footer_left_two p,.footer_left_three p{font-size: 13px;padding-left:20px; }
+.footer_left_two{margin-bottom: 20px;}
+.footer_left_one p{width: 220px;background-image: url(../images/indeximages/zbdz.jpg); background-repeat:no-repeat;background-size:  20px 20px;margin-bottom: 20px;}
+.footer_right{float: right;width: 900px;}
+.footer_right ul{list-style: none;position: relative;float: left;width: 266px;margin-bottom: 50px;}
+.footer_right p{display:inline-block;}
+.footer_right ul li a{text-decoration:none;font-size:12px;color:#616161;margin-left:25px;line-height:1px;}
+.footer_right_li{display:inline-block;margin-right:5px;}
+.footer_right_li img{width:20px;height:20px;}
+.footer_right_li_two{display:inline-block;position:absolute;}
+.footer_right_li_two h3{font-weight:normal;font-size:16px;}

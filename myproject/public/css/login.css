@@ -1,0 +1,18 @@
+body{font-size: 12px;}
+ul{list-style: none;}
+#log_div{opacity:1;z-index:999;display: none;width: 410px;height: 344px;background-color:#fff;position: fixed;top: 50%;left: 50%;border: 1px solid #c4c4c4;margin-top: -167px;margin-left: -205px;}
+.l_name,.l_pwd,#log_in{width:270px;height:31px;padding-left: 5px;border: 1px solid #ccc}
+.phe,.pwd{padding-left: 5px;width:270px;height:31px;color:#e51e13;border: 1px solid #e51e13;padding-left: 5px;border-radius: 4px;}
+.log_name,.log_pwd{background: url(../images/indeximages/logoname_bg.png) no-repeat 240px 6px;}
+.log_pwd{background-image: url(../images/indeximages/logopwd_bg.png)}
+.log_in{width:270px;height:31px;background-color: #e51e13;border: 0;border-top:1px solid #f7c47b;border-bottom:1px solid #f7c47b;color: #fff;text-align: center;font-size: 16px;}
+#log_div_tit{margin-left: 20px;margin-top: 10px;}
+#log_div_tit a{text-decoration: none;color: #666;font-weight: bold;margin-right:5px;}
+#log_div_tit .a_img{float:right;}
+#log_div_tit span{margin-right: 5px;}
+#log_ul{margin-left: 60px;margin-top: 40px;}
+#log_ul li{margin-bottom: 10px;}
+#log_ul_ul{padding-left:0px;}
+#log_ul_ul li{display: inline-block;margin-top: 10px;margin-left: 0px;}
+#log_ul_ul a{text-decoration: none;margin-right: 15px;}
+.d{opacity: 1;}

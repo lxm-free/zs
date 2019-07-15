@@ -1,0 +1,52 @@
+#goods{width:1200px;height:550px;margin:0 auto;}
+#good_img{width:430px;height:450px;float:left;margin-bottom:60px;margin-right:20px;}
+#preview{width:430px;height:430px;}
+#spec_scroll{width:430px;margin-top:10px;margin-bottom:30px;}
+#spec_scroll #prev,#spec_scroll #next{width:30px;height:64px;display:block;background:#eee;color:#bbb;font-size:24px;font-family:"宋体";text-align:center;line-height:64px;cursor:pointer;}
+#spec_scroll #prev{float:left;}
+#spec_scroll #next{float:right;}
+#items{width:336px;height:64px;float:left;margin-left:20px;margin-top:-20px;}
+#items ul li{float:left;margin-right:20px;}
+#items ul{box-sizing:border-box;}
+#items ul #items_imgl,#items ul #items_imgc,#items ul #items_imgr{padding-left:1px;padding-right:1px;padding-top:3px;border:1px solid #e1e1e1;}
+#items ul #items_imgl:hover,#items ul #items_imgc:hover,#items ul #items_imgr:hover{padding-left:1px;padding-right:1px;padding-top:3px;border:2px solid #000;}
+#good_des{width:750px;height:380.5px;float:left;}
+#good_des #good_des_name{height:36px;line-height:36px;font-size:20px;font-weight:700;}
+#good_des #good_des_pri{width:750px;height:40.5px;background:#f0f0f0;padding-left: 15px;}
+#good_des ul li{line-height:38px;font-size:14px;}
+#good_des ul li #good_price{font-size:20px;color:#c40000;}
+#good_des #good_des_ser #good_ser_span{width: 42px; margin-bottom:-15px;margin-top:10px;float: left;}
+#good_des #good_des_ser{width: 700px;font-size: 14px;float: left;margin-top:20px;}
+
+#good_des #good_des_ser li img{width: 30px;height: 30px;margin: 5px;float: left;}
+#good_des #good_des_ser li a,#good_des #good_des_fruit a{text-decoration: none;font-size: 12px;color: #000;padding-left: 5px;}
+#good_des #good_des_fruit{width:680px;margin-top:20px;float: left;}
+#good_des #good_des_fruit a{float: left;}
+#good_des #good_des_fruit li{margin-bottom:10px;}
+#good_des_fruit #goods_product_span{font-size: 14px;float: left;}
+#good_des #good_des_ser1 #good_ser_li{margin-bottom:-48px;margin-top:10px;}
+#good_des #good_des_ser1 li{margin-top:35px; float: left;}
+#good_des_num{width:737px;margin-top:80px;margin-bottom:20px;float: left;}
+#good_des_num li{display:inline-block;}
+#good_des_num #good_num_li{font-size:12px;font-weight:bold;margin-right:20px;}
+#good_des_num #good_num_li2{width:100px;height:27px;background:#f0f0f0;line-height:27px;border:1px solid #e8e8ea;padding-left: 20px;}
+#good_des_num #good_num_li2 a{width:18px;height:20px;display:inline-block;}
+#good_des_num #good_num_li2 input{width:40px;height:22px;line-height:20px;text-align:center;border:1px solid #bebebf;}
+#good_des_opt li{float:left;}
+#good_des_opt li a{display:block;}
+#good_des_opt #good_buy,#good_des_opt #good_car{width:134px;height:34px;line-height:34px;text-align:center;font-size:16px;border-radius:2px;}
+#good_des_opt #good_buy{background:#ffeded;border:1px solid #d2605e;color:#d2605e;margin-right:10px;}
+#good_des_opt #good_car{padding-left:10px;background:#e51e13;color:#fff;border:1px solid #e51e13;background-image:url(../images/Goodsinfoimgs/inner.png);background-repeat:no-repeat;background-position:7px 8px;}
+#goods_adv{width:1200px;margin:0 auto;}
+#glc_lt #glc_lt_tit,#glc_rt #glc_lt_tit{height:34px;line-height:34px;font-size: 14px;color: #e51e13;border-bottom: 2px solid #ddd;margin-top:40px;}
+#glc_lt #glc_lt_gdss{width: 980px;padding-bottom: 10px;margin: 20px 125px;}
+#glc_lt_gds_img img{width:145px;height:145px;border: 1px solid #ccc;}
+#glc_lt_gds{float: left;margin-right: 13px;}
+#glc_lt_gds #glc_lt_gds_des{width: 150px;text-align: center;}
+#glc_lt_gds_des a{color: #666;text-decoration:none;line-height: 20px;}
+#glc_lt_gds_des a:hover{text-decoration: underline;}
+#glc_lt_gds #glc_lt_gds_pri{width:150px;text-align:center;}
+#glc_lt_gds_pri span{color: #b9281e;font-size:16px;}
+#goods_adv #glc_rt{width:1200px;float: left;margin-top: 30px;margin-bottom: 20px;}
+
+
