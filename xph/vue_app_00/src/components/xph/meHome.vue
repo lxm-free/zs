@@ -31,7 +31,8 @@
                 <img src="../../assets/1/default_photo.png" alt=""><span> 请先登录 / 注册 </span> 
             </div>  
             <div class="dl" style="" v-show="!on">
-                <img src="../../assets/1/default_photo.png" alt=""><span> {{ccc}} </span> <span style="margin-left:25%;" @click="quit">退出</span>
+                <img src="../../assets/1/default_photo.png" alt=""><span> {{ccc}} </span> <span style="margin-left:25%;" @click="quit">
+                退出</span>
             </div> 
         </router-link>
         
@@ -99,7 +100,8 @@ export default {
 .dl span{left:25%;width: 40%;top:17%;color: #fff}
 .app-container a{color:#333;} 
 body{background-color: #fff!important;}
-.top{width: 100%;background:url(../../assets/1/top_bg.jpg) no-repeat;background-size:100% 30%; height:80%;top:5%;position: absolute;z-index: -1}
+.top{width: 100%;background:url(../../assets/1/top_bg.jpg) no-repeat;background-size:100% 30%;
+height:80%;top:5%;position: absolute;z-index: -1}
 /* .top img{width:18%;height: 1.3rem;margin-top: 14%;margin-left: 5%;margin-right: 3%;} */
 .top span{color:#fff;font-size: 0.35rem;position: absolute;top:11%;left:30%;}
 .center span{position: absolute;top:31%;left: 6%;font-size:0.3rem;color: #59607b}
