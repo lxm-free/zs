@@ -8,7 +8,8 @@
             <mt-field label="用户名" placeholder="请输入用户名" v-model="uname"></mt-field>
             <mt-field label="密码" placeholder="请输入密码" v-model="upass" type="password"></mt-field>
             <!-- <mt-field label="手机号" placeholder="请输入手机号" type="tel" v-model="tel"  v-show="isShow"   @click="rig" ></mt-field> -->
-            <span v-show="isShow" style="position:absolute;top:75%;left:3%;">手机号</span>  <input style="width:65%;margin-left:32%;" @blur="rig" type="text" v-model="tel" placeholder="请输入手机号" v-show="isShow">
+            <span v-show="isShow" style="position:absolute;top:75%;left:3%;">手机号</span>
+            <input style="width:65%;margin-left:32%;" @blur="rig" type="text" v-model="tel" placeholder="请输入手机号" v-show="isShow">
         </div>
         <div style="width:100%;text-align:center;">
            <div class="mt-bt">
