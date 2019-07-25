@@ -64,6 +64,7 @@ export default {
             }
          }
     },
+    //注册子组件
     components:{
         "tabbaricon":tabBarIcon,
         "home":Home,
